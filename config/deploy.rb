@@ -3,8 +3,8 @@ require 'bundler/capistrano'
 require 'sidekiq/capistrano'
 
 role :web, "192.168.1.22"
-set :application, "pubm"
-set :repository, "https://github.com/rajeshkp/cap-sidekiq.git"
+set :application, "cap-sidekiq"
+set :repository, "git://github.com/rajeshkp/cap-sidekiq.git"
 set :scm, :git
 set :branch, "master"
 set :user, "rajesh"
